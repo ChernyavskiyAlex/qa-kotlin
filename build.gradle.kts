@@ -14,12 +14,13 @@ repositories {
 
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.21")
-    testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.1")
-    testImplementation("org.junit.jupiter:junit-jupiter-params:5.8.1")
-    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.8.1")
-    testImplementation("org.junit.platform:junit-platform-suite:1.8.1")
-    testImplementation("io.cucumber:cucumber-java:6.11.0")
-    testImplementation("io.cucumber:cucumber-junit-platform-engine:6.11.0")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.2")
+    testImplementation("org.junit.jupiter:junit-jupiter-params:5.8.2")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.8.2")
+    testImplementation("org.junit.platform:junit-platform-suite:1.8.2")
+    testImplementation("io.cucumber:cucumber-java:7.1.0")
+    testImplementation("io.cucumber:cucumber-java8:7.1.0")
+    testImplementation("io.cucumber:cucumber-junit-platform-engine:7.1.0")
 }
 
 val cucumberRuntime: Configuration by configurations.creating {
